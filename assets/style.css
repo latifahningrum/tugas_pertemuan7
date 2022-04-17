@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    font-family: sans-serif;
+    color: #232323;
+    border-collapse: collapse;
+}
+
+table, tr, td{
+    border: 1px solid #999;
+    padding: 8px 20px
+}
+
+body{ 
+    background-color: #1E90FF;
+    text-align: center;
+} 
+
+.header{ 
+    height: 55px; 
+    padding-top: 15px;
+    background-color: #fff; 
+} 
+
+.header h1 span{  
+    color: #1E90FF; 
+} 
+
+.main{ 
+    border: 5px solid #fff;
+    height: 430px;
+    color: #fff;
+    padding-top: 50px; 
+} 
+
+.main form{ 
+    width: 360px; 
+    display: inline-block; 
+} 
+
+.main form label{ 
+    width: 150px;
+    height: 25px;
+    display: block;
+    float: left;
+    margin: 5px 0px; 
+    font-size: 20px; 
+    text-align: right;
+} 
+
+.main form input{ 
+    width: 200px;
+    height: 25px;
+    margin: 5px opx; 
+} 
+
+.main form .radio{ 
+    width: 350px;
+    height: 25px;
+    display: flex;
+    margin-bottom: 10px; 
+} 
+
+.main form .radio input{ 
+    margin-top: 3px;
+    margin-left: 10px; 
+} 
+
+.main form .radio span{ 
+    width: 300px;
+    padding-right: 10px;
+    margin-top: 5px;
+    font-size: 18px; 
+} 
+
+select{ 
+    width: 200px;
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Times New Roman';
+} 
+
+option{ 
+    background-color: #1E90FF; 
+    color: #fff;
+} 
+
+.main form .btn{ 
+    width: 360px;
+    display: flex;
+    margin-top: 10px; 
+} 
+
+.main form .btn input{ 
+    margin: 10px 0px;
+    height: 50px;
+    color: #fff;
+    background-color: #1E90FF;
+    border: 2px;
+    border-radius: 10px;
+    font-family: 'Times New Roman'; 
+} 
+
+.main form .btn input:hover{ 
+    color: #1E90FF;
+    background-color: #fff;
+    border: 2px solid #1E90FF; 
+} 
+
+.main table{ 
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #eee;
+    margin-left: 500px; 
+} 
+
+.main table td{ 
+    padding: 0px 1px;
+} 
+
+.main .back a{
+    width: 100px;
+    color: #1E90FF;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.main .back a:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #1E90FF;
+}
